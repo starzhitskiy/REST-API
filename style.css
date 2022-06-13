@@ -1,0 +1,29 @@
+#data-wrapper {
+  display: flex;
+  flex-flow: row;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.data-item {
+  border: 2px solid #000000;
+  padding: 10px;
+  width: 250px;
+  height: 400px;
+  overflow: scroll;
+  margin-bottom: 15px;
+  background-color: aqua;
+}
+
+.data-item span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
